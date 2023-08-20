@@ -1,0 +1,52 @@
+{
+  "name": "atcoderrichpresence",
+  "productName": "atcoderrichpresence",
+  "version": "1.0.0",
+  "description": "Discord Rich Presence Generator for AtCoder Contestant",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "type:check": "tsc"
+  },
+  "keywords": [
+    "discord",
+    "rpc",
+    "discord-rpc",
+    "rich-presence",
+    "richpresence",
+    "atcoder",
+    "competitive-programming"
+  ],
+  "author": {
+    "name": "Ryoga-exe",
+    "email": "49950206+Ryoga-exe@users.noreply.github.com"
+  },
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Ryoga-exe/AtCoderRichPresence/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ryoga-exe/AtCoderRichPresence.git"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.0",
+    "@electron-forge/maker-deb": "^6.4.0",
+    "@electron-forge/maker-rpm": "^6.4.0",
+    "@electron-forge/maker-squirrel": "^6.4.0",
+    "@electron-forge/maker-zip": "^6.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.0",
+    "@electron-forge/plugin-vite": "^6.4.0",
+    "electron": "26.0.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "packageManager": "yarn@3.6.2"
+}
