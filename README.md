@@ -5,7 +5,7 @@ Discord Rich Presence Generator for AtCoder Contestant.
 ## Stack
 
 - [Electron](https://www.electronjs.org/) - Cross-platform desktop apps with web technologies
-- [Electron Forge](https://www.electronforge.io/) - Powerful toolkit that simplifies the development, packaging, and distribution of Electron applications.
+- [Electron Forge](https://www.electronforge.io/) - Powerful toolkit for Electron applications.
 - [Vite](https://vitejs.dev/) - Build tool and development server for modern web development
 - [Yarn](https://yarnpkg.com/) - Fast JavaScript package manager.
 
