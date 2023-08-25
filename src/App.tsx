@@ -1,7 +1,8 @@
-import * as ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom/client"
 
-function render() {
-  ReactDOM.render(<h2>Hello from React!</h2>, document.body);
-}
-
-render();
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+  <React.StrictMode>
+    <h2>Hello from React!</h2>
+  </React.StrictMode>
+);
